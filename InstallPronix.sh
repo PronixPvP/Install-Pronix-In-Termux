@@ -1,3 +1,3 @@
 echo updating and installing...
-rm -rf LienePvP && apt update && pkg upgrade && pkg install git && git clone https://github.com/PronixPvP/LienePvP.git
+rm -rf LienePvP && apt upgrade && pkg install php && pkg install git && git clone https://github.com/PronixPvP/LienePvP.git && cd LienePvP && php buildPronix.php
 echo Your install is finished
